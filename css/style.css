@@ -1,0 +1,14 @@
+:root{
+    --accent-yellow: #FED136;
+    --dark-text: #222;
+    --text-color: #777;
+    --light-text: #BBB;
+}
+
+.container{
+    width: 942px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px dashed red;
+}
