@@ -12,6 +12,7 @@
 body{
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
+    color: var(--dark-text);
 }
 ul{
     list-style: none;
@@ -42,7 +43,7 @@ a{
     justify-content: space-between;
 }
 .services-item{
-    width: 300px;
+    width: 290px;
     text-align: center;
 }
 .contact{
@@ -107,4 +108,21 @@ a{
 }
 .services{
     padding: 75px 0;
+}
+
+.navigation-link{
+    text-transform: uppercase;
+    color: var(--accent-yellow);
+}
+.services-item-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services-item-text{
+    font-family: 'Roboto Slab', serif;
+    color: var(--text-color);
+}
+.contact-title{
+    margin-bottom: 114px;
 }
